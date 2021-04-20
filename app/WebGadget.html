@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Resume</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Forum&display=swap" rel="stylesheet">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script3.js" defer></script>
+  </head>
+  <body>
+    <header>
+      
+          <div>
+        Princess Girlie A. Billones
+      </div>
+
+      <div class="address">
+        2631 38TH St NE, Calgary, AB T1Y3Z8
+      </div>
+    </header>
+    
+    <img src = "https://cdn.glitch.com/5856a602-d100-46ca-8ee9-93ddefb8f23e%2Fluis-rocha-3UyoEEZBUhQ-unsplash.jpg?v=1573948107123" alt = "coding">
+    
+    <div class ="navbar">
+      <label for="toggle">&#9776</label> 
+      <input type="checkbox" id = "toggle"/>
+      <div class = "menu">
+        <div><a href ="index.html">Home</a></div>
+        <div><a href ="#experience"> Experience</a></div>
+      <div><a href ="#education">Education</a> </div>
+      <div><a href ="htmlcheatsheet.html"> HTML Cheatsheet</a></div>
+      <div><a href= "css-cheatsheet.html">CSS Cheatsheet</a></div> 
+      <div><a href= "WebGadget.html">Web Gadget</a></div> 
+  
+       
+      </div>
+        
+      
+    </div>
+    
+    <h1>My calculator</h1>
+    <table border="1" cellpadding="5" cellspacing="5" width="600">
+    <tr align="center">
+    <td>First number</td>
+    <td>Second Number</td>
+    <td>Result</td>
+    </tr>
+    <tr align="center">
+    <td> <input name="number1" type="text" size="10" id="num1"></td>
+    <td><input name="number2" type="text" size="10" id="num2"></td>
+    <td> <input type="text" id="result" readonly ></td>
+    </tr>
+    <tr>
+    <td colspan="3">
+    <button onclick="showresult('1')">+</button>
+    <button onclick="showresult('2')">-</button>
+    <button onclick="showresult('3')">*</button>
+    <button onclick="showresult('4')">/</button>
+    <button onclick="showresult('5')">%</button>
+    </td>
+    </tr>
+    </body>
+</html>

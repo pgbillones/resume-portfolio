@@ -1,0 +1,480 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: cambria;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  background-color: LightBlue;
+}
+header {
+  display: flex;
+  font-family: "Kaushan Script", cursive;
+  font-size: 45px;
+  color: black;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-weight: 900;
+  align-content: center;
+  text-shadow: 3px 3px 3px rgba(128, 0, 128, 1),
+    10px 10px 10px rgba(240, 255, 240, 1);
+}
+
+header > div {
+  margin-left: 30%;
+}
+
+.address {
+  font-size: 25px;
+}
+
+img {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+  background: LightSeaGreen;
+}
+
+.navbar > div {
+  font-size: 35px;
+  font-family: "Kaushan Script", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  background-color: Aquamarine;
+}
+
+label {
+  margin-left: 40px;
+  font-size: 26px;
+  display: none;
+  width: 40px;
+  margin: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+#toggle {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .menu {
+    text-align: center;
+    display: none;
+  }
+  .menu a {
+    display: block;
+    margin: 0;
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+}
+
+li {
+  list-style-type: none;
+  font-size: 22px;
+}
+
+li:before {
+  content: "\25BA\0020";
+}
+.wisdom {
+  font-family: "Niconne", cursive;
+  font-size: 50px;
+  font-weight: 700;
+  margin-left: 40px;
+  padding: 10px 10px;
+}
+
+.flexbox1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.company1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.place1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.time1 {
+  font-size: 26px;
+  align-self: flex-end;
+  font-family: "Forum", cursive;
+}
+
+.flexbox2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.company2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.place2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.time2 {
+  font-size: 26px;
+  align-self: flex-end;
+  font-family: "Forum", cursive;
+}
+
+.flexbox3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.company3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.place3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.time3 {
+  font-size: 26px;
+  align-self: flex-end;
+  font-family: "Forum", cursive;
+}
+.flexbox4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.company4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.place4 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.time4 {
+  font-size: 26px;
+  align-self: flex-end;
+  font-family: "Forum", cursive;
+}
+.flexbox5 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.company5 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.place5 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.time5 {
+  font-size: 26px;
+  align-self: flex-end;
+  font-family: "Forum", cursive;
+}
+
+.flexbox6 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.study {
+  font-family: "Niconne", cursive;
+  font-size: 50px;
+  font-weight: 700;
+  margin-left: 40px;
+  padding: 10px 10px;
+}
+
+.years {
+  font-size: 26px;
+  align-self: flex-end;
+  font-family: "Forum", cursive;
+}
+
+.master {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.bachelor {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.college {
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+#elements {
+  display: none;
+  background-color: cyan;
+  padding: 10px;
+}
+
+#elements1 {
+  display: none;
+  background-color: cyan;
+  padding: 10px;
+}
+#elements2 {
+  display: none;
+  background-color: cyan;
+  padding: 10px;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 60px;
+  font-family: "Niconne", cursive;
+}
+
+.define {
+  margin: 10px 15px;
+  font-size: 24px;
+}
+
+span {
+  color: DarkBlue;
+  font-weight: 600;
+}
+
+.hover1 {
+  border: none;
+  background-color: LightBlue;
+  font-size: 26px;
+  color: indigo;
+  font-weight: bold;
+}
+.cross {
+  border: none;
+  background-color: navy;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin: 1px;
+}
+.block {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.elements {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+.attribute {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+.structure {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.form_structure {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.form {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+table {
+  display: inline-flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+tr {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+th {
+  font-size: 30px;
+}
+
+td {
+  font-size: 26px;
+  margin-right: 15px;
+  float: left;
+}
+
+th,
+td,
+tr {
+  padding: 10px;
+}
+#elements3 {
+  display: none;
+  background-color: cyan;
+  padding: 10px;
+}
+#elements4 {
+  display: none;
+  background-color: cyan;
+  padding: 10px;
+}
+#elements5 {
+  display: none;
+  background-color: cyan;
+  padding: 10px;
+}
+
+.basics{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;  
+}
+.way{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.selectors{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.properties{
+   font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.property {
+  font-weight: bold;
+  color: black;
+}
+
+.flexbox7{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox8{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox9{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox10{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox11{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexbox12{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexbox13{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
